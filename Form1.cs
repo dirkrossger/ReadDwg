@@ -16,36 +16,59 @@ namespace ReadDwgFile
 {
     public partial class Form1 : Form
     {
-        private AcadApplication a;//声明AutoCAD对象
+        
         public Form1()
         {
             InitializeComponent();
         }
 
+        private Autodesk.AutoCAD.Interop.AcadApplication app;
         private void button1_Click(object sender, EventArgs e)
         {
-            a = new AcadApplicationClass();
-            a.Visible = true;
-            string strFileName = "C:\\G4P4-S01.dwg";
-            a.Application.Update();
-            a.Application.Documents.Open(strFileName, false, 1);
-            //Autodesk.AutoCAD.Interop.AcadDocument aDocument;
-            //Autodesk.AutoCAD.Interop.Common.AcadLayers acDoc;
+            this.Close();
+            // "AutoCAD.Application.17" uses 2007 or 2008,
 
+            //  whichever was most recently run
+            // "AutoCAD.Application.17.1" uses 2008, specifically
+            const string progID = "AutoCAD.Application";
 
+            AcadApplication acApp = null;
+            try
+            {
+                acApp = (AcadApplication)Marshal.GetActiveObject(progID);
+            }
+            catch
+            {
+                try
+                {
+                    Type acType =
+                      Type.GetTypeFromProgID(progID);
+                    acApp =
+                      (AcadApplication)Activator.CreateInstance(
+                        acType,
+                        true
+                      );
+                }
+                catch
+                {
+                    MessageBox.Show(
+                      "Cannot create object of type \"" +
+                      progID + "\""
+                    );
+                }
+            }
 
-            //a.ActiveDocument.Layers.Item("IN_SWGEAR_CAB_USED").LayerOn=false;
+            if (acApp != null)
+            {
+                // By the time this is reached AutoCAD is fully
+                // functional and can be interacted with through code
+                acApp.Visible = true;
+                //acApp.ActiveDocument.SendCommand("_MYCOMMAND ");
+                acApp.ActiveDocument.SendCommand("(command " + (char)34 + "NETLOAD" + (char)34 + " " +
+                                   (char)34 + "A:/Github/ListItems/bin/Debug/ListItems.dll" + (char)34 + ") ");
+            }
 
-            //AcadDocument acDocComObj;
-            //acDocComObj = acAppComObj.ActiveDocument;
-
-            // Optionally, load your assembly and start your command or if your assembly
-            // is demandloaded, simply start the command of your in-process assembly.
-
-            a.ActiveDocument.SendCommand("(command " + (char)34 + "NETLOAD" + (char)34 + " " +
-                                    (char)34 + "c:/myapps/mycommands.dll" + (char)34 + ") ");
-            TurnLayerOff.Class1.TurnLayerOff(textBox2.Text);
-            a.ActiveDocument.SendCommand("TurnLayerOff");
+           
         }
     }
 }

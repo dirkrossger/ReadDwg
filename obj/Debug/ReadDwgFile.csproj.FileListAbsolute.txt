@@ -1,1 +1,9 @@
 C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\bin\Debug\ReadDwgFile.exe.config
+a:\Github\ReadDwg\bin\Debug\ReadDwgFile.exe.config
+a:\Github\ReadDwg\obj\Debug\ReadDwgFile.Form1.resources
+a:\Github\ReadDwg\obj\Debug\ReadDwgFile.Properties.Resources.resources
+a:\Github\ReadDwg\obj\Debug\ReadDwgFile.csproj.GenerateResource.Cache
+a:\Github\ReadDwg\bin\Debug\ReadDwgFile.exe
+a:\Github\ReadDwg\bin\Debug\ReadDwgFile.pdb
+a:\Github\ReadDwg\obj\Debug\ReadDwgFile.exe
+a:\Github\ReadDwg\obj\Debug\ReadDwgFile.pdb

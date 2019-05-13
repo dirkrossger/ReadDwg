@@ -1,0 +1,5 @@
+A:\Github\ReadDwg\StartAcad\bin\Debug\StartAcad.exe.config
+A:\Github\ReadDwg\StartAcad\bin\Debug\StartAcad.exe
+A:\Github\ReadDwg\StartAcad\bin\Debug\StartAcad.pdb
+A:\Github\ReadDwg\StartAcad\obj\Debug\StartAcad.exe
+A:\Github\ReadDwg\StartAcad\obj\Debug\StartAcad.pdb
