@@ -4,3 +4,10 @@ A:\Github\ReadDwg\StartAcad\bin\Debug\StartAcad.pdb
 A:\Github\ReadDwg\StartAcad\obj\Debug\StartAcad.exe
 A:\Github\ReadDwg\StartAcad\obj\Debug\StartAcad.pdb
 A:\Github\ReadDwg\StartAcad\obj\Debug\StartAcad.csprojResolveAssemblyReference.cache
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\StartAcad\bin\Debug\StartAcad.exe.config
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\StartAcad\obj\Debug\StartAcad.exe
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\StartAcad\obj\Debug\StartAcad.pdb
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\StartAcad\bin\Debug\StartAcad.exe
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\StartAcad\bin\Debug\StartAcad.pdb
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\StartAcad\obj\Debug\StartAcad.csprojResolveAssemblyReference.cache
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\StartAcad\obj\Debug\StartAcad.csproj.ResolveComReference.cache

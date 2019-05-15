@@ -8,3 +8,11 @@ a:\Github\ReadDwg\bin\Debug\ReadDwgFile.pdb
 a:\Github\ReadDwg\obj\Debug\ReadDwgFile.exe
 a:\Github\ReadDwg\obj\Debug\ReadDwgFile.pdb
 A:\Github\ReadDwg\obj\Debug\ReadDwgFile.csprojResolveAssemblyReference.cache
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\bin\Debug\ReadDwgFile.exe
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\bin\Debug\ReadDwgFile.pdb
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\obj\Debug\ReadDwgFile.csprojResolveAssemblyReference.cache
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\obj\Debug\ReadDwgFile.Form1.resources
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\obj\Debug\ReadDwgFile.Properties.Resources.resources
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\obj\Debug\ReadDwgFile.csproj.GenerateResource.Cache
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\obj\Debug\ReadDwgFile.exe
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\obj\Debug\ReadDwgFile.pdb

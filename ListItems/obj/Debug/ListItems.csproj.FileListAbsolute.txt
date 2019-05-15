@@ -16,3 +16,11 @@ A:\Github\ReadDwg\ListItems\obj\Debug\ListItems.Properties.Resources.resources
 A:\Github\ReadDwg\ListItems\obj\Debug\ListItems.csproj.GenerateResource.Cache
 A:\Github\ReadDwg\ListItems\obj\Debug\ListItems.dll
 A:\Github\ReadDwg\ListItems\obj\Debug\ListItems.pdb
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\ListItems\bin\Debug\ListItems.dll.config
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\ListItems\bin\Debug\ListItems.dll
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\ListItems\bin\Debug\ListItems.pdb
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\ListItems\obj\Debug\ListItems.csprojResolveAssemblyReference.cache
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\ListItems\obj\Debug\ListItems.Properties.Resources.resources
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\ListItems\obj\Debug\ListItems.csproj.GenerateResource.Cache
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\ListItems\obj\Debug\ListItems.dll
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\ListItems\obj\Debug\ListItems.pdb
