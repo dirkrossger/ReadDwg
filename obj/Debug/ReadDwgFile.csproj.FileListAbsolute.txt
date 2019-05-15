@@ -7,3 +7,4 @@ a:\Github\ReadDwg\bin\Debug\ReadDwgFile.exe
 a:\Github\ReadDwg\bin\Debug\ReadDwgFile.pdb
 a:\Github\ReadDwg\obj\Debug\ReadDwgFile.exe
 a:\Github\ReadDwg\obj\Debug\ReadDwgFile.pdb
+A:\Github\ReadDwg\obj\Debug\ReadDwgFile.csprojResolveAssemblyReference.cache
