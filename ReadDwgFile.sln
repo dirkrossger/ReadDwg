@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartAcad", "StartAcad\Star
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListItems", "ListItems\ListItems.csproj", "{8703F369-54AC-452E-9842-78B1B2B8FC99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjDbx_ReadLayers", "ObjDbx\ObjDbx_ReadLayers.csproj", "{99650CDF-AC07-4F45-8F44-922CB887AE89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjDbx_ReadLayers", "ObjDbx_ReadLayers\ObjDbx_ReadLayers.csproj", "{99650CDF-AC07-4F45-8F44-922CB887AE89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
