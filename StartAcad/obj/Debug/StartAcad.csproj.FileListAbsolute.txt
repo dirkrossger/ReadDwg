@@ -11,3 +11,4 @@ C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\StartAcad\bin\Debug\StartAca
 C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\StartAcad\bin\Debug\StartAcad.pdb
 C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\StartAcad\obj\Debug\StartAcad.csprojResolveAssemblyReference.cache
 C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\StartAcad\obj\Debug\StartAcad.csproj.ResolveComReference.cache
+A:\Github\ReadDwg\StartAcad\obj\Debug\StartAcad.csproj.ResolveComReference.cache

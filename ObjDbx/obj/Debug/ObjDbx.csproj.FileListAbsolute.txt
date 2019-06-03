@@ -1,0 +1,9 @@
+A:\Github\ReadDwg\ObjDbx\obj\Debug\ObjDbx.csprojResolveAssemblyReference.cache
+A:\Github\ReadDwg\ObjDbx\obj\Debug\Interop.AutoCAD.dll
+A:\Github\ReadDwg\ObjDbx\obj\Debug\Interop.AXDBLib.dll
+A:\Github\ReadDwg\ObjDbx\obj\Debug\ObjDbx.csproj.ResolveComReference.cache
+A:\Github\ReadDwg\ObjDbx\bin\Debug\ObjDbx.exe.config
+A:\Github\ReadDwg\ObjDbx\bin\Debug\ObjDbx.exe
+A:\Github\ReadDwg\ObjDbx\bin\Debug\ObjDbx.pdb
+A:\Github\ReadDwg\ObjDbx\obj\Debug\ObjDbx.exe
+A:\Github\ReadDwg\ObjDbx\obj\Debug\ObjDbx.pdb
