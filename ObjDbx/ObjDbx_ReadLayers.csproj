@@ -51,7 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="AutoCAD">
-      <Guid>{4E3F492A-FB57-4439-9BF0-1567ED84A3A9}</Guid>
+      <Guid>{644614D2-93DC-48C6-A061-21ABCE65A4C0}</Guid>
       <VersionMajor>1</VersionMajor>
       <VersionMinor>0</VersionMinor>
       <Lcid>0</Lcid>
@@ -60,7 +60,7 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
     <COMReference Include="AXDBLib">
-      <Guid>{594E795C-1019-46CC-969B-121BE08917B2}</Guid>
+      <Guid>{1B47FC7F-AFF7-44A9-88BE-873CC5B70A6E}</Guid>
       <VersionMajor>1</VersionMajor>
       <VersionMinor>0</VersionMinor>
       <Lcid>0</Lcid>
