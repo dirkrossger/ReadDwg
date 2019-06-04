@@ -43,7 +43,7 @@ namespace ObjDbx
             }
             else
             {
-                doc.Open(@"c:\Users\Dick\OneDrive - Integra Engineering AB\Autocad\Infratools\M-Stomlinje.dwg");
+                doc.Open(@"a:\Dropbox\Infratools\2_Presentation\2.0 Calculation\Mängd_Landskap.dwg");
                 List<string> layers = AcLayersToList(doc.Database);
                 Console.WriteLine(layers.Count + " Layers found.");
                 foreach (string s in layers)
@@ -56,6 +56,9 @@ namespace ObjDbx
             //You can make changes to the entities in AxDbDocument and save the changes back to the drawing file.
 
             //doc.Save();
+
+            doc = null;
+            acad.Quit();
             Console.Read();
         }
 
