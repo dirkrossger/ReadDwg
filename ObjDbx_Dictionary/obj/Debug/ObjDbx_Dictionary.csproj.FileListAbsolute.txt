@@ -1,0 +1,9 @@
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\ObjDbx_Dictionary\bin\Debug\ObjDbx.exe.config
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\ObjDbx_Dictionary\obj\Debug\Interop.AutoCAD.dll
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\ObjDbx_Dictionary\obj\Debug\Interop.AXDBLib.dll
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\ObjDbx_Dictionary\obj\Debug\ObjDbx_Dictionary.csproj.ResolveComReference.cache
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\ObjDbx_Dictionary\bin\Debug\ObjDbx.exe
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\ObjDbx_Dictionary\bin\Debug\ObjDbx.pdb
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\ObjDbx_Dictionary\obj\Debug\ObjDbx_Dictionary.csprojResolveAssemblyReference.cache
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\ObjDbx_Dictionary\obj\Debug\ObjDbx.exe
+C:\Users\Dick\Documents\GitExt_projects\ReadDwgFile\ObjDbx_Dictionary\obj\Debug\ObjDbx.pdb
