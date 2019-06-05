@@ -13,4 +13,7 @@ https://forums.autodesk.com/t5/net/how-to-pass-parameter-in-interface-to-the-pro
 19-06-03
 - Connect application to active instance of Autocad
   https://www.codeproject.com/Articles/840798/AutoCAD-D-Drawing-using-Csharp-with-AutoCAD-COM-AP
+  
+19-06-05
+- https://sites.google.com/site/acadhowtodo/net/styles/table-styles
 

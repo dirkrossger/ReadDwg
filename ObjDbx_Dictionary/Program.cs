@@ -77,26 +77,35 @@ namespace ObjDbx
         {
             List<string> lstDict = new List<string>();
             AXDBLib.AcadDictionaries dicts = database.Dictionaries;
-            dicts.Item(0)
+            AXDBLib.AcadObject dictObj = dicts.Item("ProjectManager");
+            AXDBLib.AcadDictionary dict = dictObj.ObjectID()
 
-            for (int i = 0; i < database.Dictionaries.Count; i++)
+            foreach (AXDBLib.AcadXRecord xr in dict.)
             {
-                AXDBLib.AcadDictionaries x = database.Dictionaries.Item(i);
-                lstDict.Add(database.Dictionaries.);
+                xr.GetXRecordData(();
             }
-
-            //try
-            //{
                 
-            //}
-            //catch(System.Exception ex)
-            //{ }
 
-            //foreach (AXDBLib.AcadDictionary x in database.Dictionaries)
-            //{
-            //    lstDict.Add(x.Name);
-            //}
-            return lstDict;
+
+
+                //for (int i = 0; i < database.Dictionaries.Count; i++)
+                //{
+                //    AXDBLib.AcadDictionaries x = database.Dictionaries.Item(i);
+                //    lstDict.Add(database.Dictionaries.);
+                //}
+
+                //try
+                //{
+
+                //}
+                //catch(System.Exception ex)
+                //{ }
+
+                //foreach (AXDBLib.AcadDictionary x in database.Dictionaries)
+                //{
+                //    lstDict.Add(x.Name);
+                //}
+                return lstDict;
         }
     }
 }
