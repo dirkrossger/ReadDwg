@@ -35,7 +35,7 @@ namespace ObjDbx
             //Open an AxDbDocument
             object obj = acad.GetInterfaceObject("ObjectDBX.AxDbDocument.22"); //Acad2018
             AxDbDocument doc = obj as AxDbDocument;
-
+                        
             if (doc == null)
             {
                 Console.WriteLine("Cannot open AxDbDocument for some reason!");
@@ -45,9 +45,9 @@ namespace ObjDbx
             {
                 doc.Open(@"a:\Dropbox\Infratools\2_Presentation\4.0 Automation\Dictionary\test.dwg");
                 List<string> dicts = AcDictToList(doc.Database);
-                //Console.WriteLine(dicts.Count + " Dictionaries found.");
-                //foreach (string s in dicts)
-                //    Console.WriteLine(s);
+                Console.WriteLine(dicts.Count + " Dictionaries found.");
+                foreach (string s in dicts)
+                    Console.WriteLine(s);
 
             }
             //Get drawing information
@@ -76,14 +76,25 @@ namespace ObjDbx
         private static List<string> AcDictToList(AXDBLib.AcadDatabase database)
         {
             List<string> lstDict = new List<string>();
+            AXDBLib.AcadDictionaries dicts = database.Dictionaries;
+            dicts.Item(0)
 
-            AXDBLib.AcadDictionary dict = null;
-            Console.WriteLine(database.Dictionaries.Count + " Dictionaries found."); 
+            for (int i = 0; i < database.Dictionaries.Count; i++)
+            {
+                AXDBLib.AcadDictionaries x = database.Dictionaries.Item(i);
+                lstDict.Add(database.Dictionaries.);
+            }
 
-            //dict.Name = "ProjektManager";
-            //foreach (var dict in database.Dictionaries)
+            //try
             //{
-            //    lstDict.Add(dict..Application);
+                
+            //}
+            //catch(System.Exception ex)
+            //{ }
+
+            //foreach (AXDBLib.AcadDictionary x in database.Dictionaries)
+            //{
+            //    lstDict.Add(x.Name);
             //}
             return lstDict;
         }
