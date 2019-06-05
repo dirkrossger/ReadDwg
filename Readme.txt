@@ -10,4 +10,7 @@ https://forums.autodesk.com/t5/net/how-to-pass-parameter-in-interface-to-the-pro
 - AcApp, start Autocad application before using this apps
   https://www.codeproject.com/KB/cs/840798/AutoCADApp.zip
 
+19-06-03
+- Connect application to active instance of Autocad
+  https://www.codeproject.com/Articles/840798/AutoCAD-D-Drawing-using-Csharp-with-AutoCAD-COM-AP
 
